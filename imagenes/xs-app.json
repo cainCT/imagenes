@@ -1,0 +1,19 @@
+{
+  "welcomeFile": "/imagenes/index.html",
+  "authenticationMethod": "none",
+  "logout": {
+    "logoutEndpoint": "/do/logout"
+  },
+  "routes": [
+    {
+      "source": "^/imagenes/(.*)$",
+      "target": "$1",
+      "localDir": "webapp"
+    }, {
+		"source": "/imagen/(.*)",
+		"localDir": "webapp",
+		"target": "$1",
+		"authenticationType": "none"
+	}
+  ]
+}
