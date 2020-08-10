@@ -8,7 +8,7 @@ modules:
    path: imagenes
    parameters:
       disk-quota: 512M
-      memory: 256M
+      memory: 128M
    build-parameters:
       builder: grunt
    requires:
